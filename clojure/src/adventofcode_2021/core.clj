@@ -16,7 +16,7 @@
                   {:last (first array) :count 0}
                   (rest array))))
 
-(def t1-data (read-file-rows "../input/input1" read-string))
+(def t1-data (read-file-rows "../../inputs/input1.txt" read-string))
 
 (defn day1a []
   (let [data t1-data]
